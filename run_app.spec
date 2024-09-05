@@ -3,7 +3,7 @@
 from PyInstaller.utils.hooks import collect_data_files
 from PyInstaller.utils.hooks import copy_metadata
 
-datas = [("../venv/Lib/site-packages/streamlit/runtime", "./streamlit/runtime")]
+datas = [("./venv/Lib/site-packages/streamlit/runtime", "./streamlit/runtime")]
 datas += collect_data_files("streamlit")
 datas += copy_metadata("streamlit")
 datas += [('./src', './src')]
