@@ -1,0 +1,7 @@
+binance==0.3
+binance_futures_connector==4.0.0
+pandas==2.2.2
+pyinstaller==6.10.0
+pytz==2024.1
+Requests==2.32.3
+streamlit==1.35.0
